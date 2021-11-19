@@ -1,3 +1,6 @@
+//create a function that only print onject string type property
+
+
 function showObjProperties(obj){
     for(let key in obj){
         if(typeof obj[key] !== 'string') continue;
