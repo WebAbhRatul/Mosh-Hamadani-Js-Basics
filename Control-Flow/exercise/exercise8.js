@@ -1,5 +1,5 @@
 // find the average mark and define  grad
-const marks = [50,90,40,60,80,90];
+const marks = [5000,90,40,60,80,90];
 function calculateGrade(arr){
     let mark = 0;
     for (let value of arr){
