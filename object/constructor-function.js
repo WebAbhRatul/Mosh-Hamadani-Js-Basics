@@ -18,8 +18,25 @@ function Student(){
     }
 }
 
+
 let student1 = new Student();
 student1.stGreet();
 
 let student2 = new Student();
 student2.stGreet();
+
+// JavaScript Constructor Function Parameters
+function Details(name,age,contactNo){
+    this.name=name,
+    this.age=age,
+    this.contactNo=contactNo,
+    this.greet2=function(){
+        return ('Hi'+' '+this.name);
+    }
+}
+
+let ratul = new Details('Ratul',26,01611311294);
+console.log(ratul.name);
+console.log(ratul.greet2());
+
+
