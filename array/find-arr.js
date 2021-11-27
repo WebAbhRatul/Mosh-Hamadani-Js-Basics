@@ -7,3 +7,15 @@ console.log(numbers.lastIndexOf(1));
 
 console.log(numbers.indexOf('1') == -1);
 console.log(numbers.indexOf(1) !== -1);
+console.log(numbers.includes(1));
+
+const numbersObj = [
+    {id:1,name:'Abh'},
+    {id:2,name:'Ratul'},
+
+
+]
+
+const course = numbersObj.find(item => item.name === 'Abh')
+console.log(course);
+
