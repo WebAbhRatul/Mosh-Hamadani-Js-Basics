@@ -29,17 +29,23 @@
 
 // Splice() 
 let num = [1,2,3,4,5,'hello','how','are','you'];
+let pokko = num.slice()
+
+let conto = num.splice(2,0,num[5])
+console.log(conto);
 
 // let newNum = num.splice(0,4);
 // console.log(num);
 
-num.splice(3,1);
-console.log(num);
-let num2 = num.slice(2,3);
-console.log(num);
-console.log(num2);
+// num.splice(3,1);
+// console.log(num);
+// let num2 = num.slice(2,3);
+// console.log(num);
+// console.log(num2);
 
-num.splice(3,0,'a','b','c');
-console.log(num);
+// num.splice(3,0,'a','b','c');
+// console.log(num);
+
+
 
 
